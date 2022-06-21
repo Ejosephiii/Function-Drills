@@ -347,7 +347,11 @@ function emailCheck(email){
 */
 
 //CODE HERE
+function frogSlanger(gold) {
+  return gold / 3
+}
 
+let totalFrogs = frogSlanger(100)
 
 ////////////////// PROBLEM 20 ////////////////////
 /*
