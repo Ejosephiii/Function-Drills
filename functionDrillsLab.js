@@ -347,11 +347,7 @@ function emailCheck(email){
 */
 
 //CODE HERE
-function frogSlanger(gold) {
-  return gold / 3
-}
 
-let totalFrogs = frogSlanger(100)
 
 ////////////////// PROBLEM 20 ////////////////////
 /*
@@ -392,13 +388,13 @@ function pond() {
 */
 
 //This array should contain the variable names (as strings) accessible in the global scope.
-let globalScope = ["duck"]
+let globalScope = []
 
 //This array should contain the variable names (as strings) accessible in the bathroom function.
-let bathroomScope = ["duck", "rubberDuck", ]
+let bathroomScope = []
 
 //This array should contain the variable names (as strings) accessible in the bathtub function.
-let bathtubScope = ["duck", "rubberDuck", "sailorDuck"]
+let bathtubScope = []
 
 //This array should contain the variable names (as strings) accessible in the pond function.
-let pondScope = ["duck", "realDuck"]
+let pondScope = []
